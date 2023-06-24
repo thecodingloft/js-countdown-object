@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.btn {
+    margin: 50px auto;
+    padding: 20px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background: #ffba6b;
+}
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(.98);
+    opacity: .9;
+}
